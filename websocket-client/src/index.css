@@ -1,0 +1,43 @@
+.button-primary {
+  transition: background-color 0.3s;
+}
+.button-primary:hover {
+  background-color: #2563eb;
+}
+
+.connection-icon {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    color: #34d399;
+  }
+  50% {
+    color: #4ade80;
+  }
+  100% {
+    color: #34d399;
+  }
+}
+
+.message-sent {
+  background-color: #e0f2fe;
+}
+.message-received {
+  background-color: #f3f4f6;
+}
+.message-system {
+  background-color: #fef3c7;
+}
+
+.stat-card {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.benchmark-bar {
+  height: 4px;
+  background: #2563eb;
+  animation: loading 10s ease-in-out;
+}
